@@ -20,7 +20,7 @@ if (!$name || !$phone) {
     exit;
 }
 
-$to = 'vignesh.152015@gmail.com';
+$to = 'vimalkumark@hotmail.com';
 $mail_subject = 'New Enquiry from Urban Retreat Website';
 if ($subject) $mail_subject = 'Website Enquiry: ' . $subject;
 
