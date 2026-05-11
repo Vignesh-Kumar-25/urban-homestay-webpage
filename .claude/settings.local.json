@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b)",
+      "WebFetch(domain:www.urbanretreatmangalore.com)",
+      "Bash(powershell *)",
+      "WebFetch(domain:urbanretreatmangalore.com)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Vignesh\\\\Documents\\\\Urban-Retreat-website\" -Recurse -File)",
+      "Bash(Select-Object -First 20)"
+    ]
+  }
+}

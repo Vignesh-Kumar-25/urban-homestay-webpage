@@ -1,0 +1,88 @@
+:root {
+  /* Primary — Ocean Blue */
+  --color-primary: #1A6B8A;
+  --color-primary-light: #2A8FB5;
+  --color-primary-dark: #0F4F6B;
+
+  /* Secondary — Coral */
+  --color-secondary: #E8734A;
+  --color-secondary-light: #F09070;
+
+  /* Accent — Sunset Gold */
+  --color-accent: #F0C75E;
+  --color-accent-light: #F5D98A;
+
+  /* Neutrals */
+  --color-white: #FFFFFF;
+  --color-sand: #FBF7F0;
+  --color-shell: #F5EDE3;
+  --color-sea-foam: #E8F4F8;
+  --color-driftwood: #6B5E51;
+  --color-charcoal: #2C3E50;
+  --color-black: #1A1E25;
+
+  /* Functional */
+  --color-success: #27AE60;
+  --color-error: #E74C3C;
+  --color-whatsapp: #25D366;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', 'Segoe UI', Arial, sans-serif;
+  --font-ui: 'Poppins', 'Segoe UI', Arial, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3rem;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+  --space-10: 4rem;
+  --space-12: 5rem;
+  --space-16: 8rem;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-padding: var(--space-4);
+  --header-height: 80px;
+  --header-height-scrolled: 64px;
+
+  /* Borders & Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(26, 30, 37, 0.08);
+  --shadow-md: 0 4px 12px rgba(26, 30, 37, 0.1);
+  --shadow-lg: 0 8px 30px rgba(26, 30, 37, 0.12);
+  --shadow-xl: 0 16px 50px rgba(26, 30, 37, 0.15);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+}
