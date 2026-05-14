@@ -35,9 +35,11 @@ if ($checkout) $body .= "Check-out: $checkout\n";
 if ($source) $body .= "Source: $source\n";
 $body .= "\nMessage:\n$message\n";
 
-$headers = "From: noreply@urbanretreatmangalore.com\r\n";
+$headers = "From: Urban Retreat <noreply@urbanretreatmangalore.com>\r\n";
 $headers .= "Reply-To: " . ($email ?: 'noreply@urbanretreatmangalore.com') . "\r\n";
-$headers .= "X-Mailer: PHP/" . phpversion();
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+$headers .= "X-Mailer: UrbanRetreat/1.0";
 
 mail($to, $mail_subject, $body, $headers);
 

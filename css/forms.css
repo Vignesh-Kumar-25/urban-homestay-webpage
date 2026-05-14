@@ -86,6 +86,85 @@
   }
 }
 
+/* Form Toast Notification */
+.form-toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-6);
+  animation: toastSlideIn 0.4s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.form-toast--success {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  color: #166534;
+}
+
+.form-toast--error {
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #991b1b;
+}
+
+.form-toast__content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.form-toast__icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.form-toast--success .form-toast__icon {
+  stroke: #16a34a;
+}
+
+.form-toast--error .form-toast__icon {
+  stroke: #dc2626;
+}
+
+.form-toast__close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: var(--space-1);
+  color: inherit;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+.form-toast__close:hover {
+  opacity: 1;
+}
+
+.form-toast--hiding {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* FAQ Accordion */
 .faq {
   max-width: 800px;
