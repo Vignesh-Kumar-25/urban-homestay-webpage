@@ -8,9 +8,7 @@ There is no install step and no build step.
 
 ## Structure
 
-- Root `.html` files are the public pages.
-- `index.html` and verification files stay at the root.
-- `pages/` contains the secondary website pages using normalized filenames.
+- Root `.html` files are the public pages. Some filenames contain spaces because the deployed site historically uses those URLs.
 - `feedback.php` handles reservation form submissions.
 - `css/`, `js/`, and `images/` contain active runtime assets.
 - `data/` contains source data used to regenerate runtime assets.
@@ -26,7 +24,7 @@ Run the site from the repository root with any small static server so root-relat
 Deploy the static site files to the web host. The public deployment payload should include:
 
 - Root files such as `index.html` and verification HTML
-- `pages/`
+- All root-level public `.html` files
 - `feedback.php`
 - `sitemap.xml`
 - `googlefa72e071c73c5474.html`
