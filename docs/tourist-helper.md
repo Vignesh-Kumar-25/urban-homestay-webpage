@@ -204,7 +204,7 @@ FTP upload these files:
 - `js/tourist-helper.js`
 - All updated root `*.html` files (nav now has a Tourist Helper link)
 
-Skip everything in `cp/`, `webalizer/`, `Templates/`, `modlogan/` as usual.
+Skip non-public folders such as `archive/`, `data/`, and `docs/` during deployment.
 
 ---
 
