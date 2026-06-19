@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: index.html');
+    header('Location: /');
     exit;
 }
 
@@ -16,7 +16,7 @@ $source = filter_input(INPUT_POST, 'source', FILTER_SANITIZE_SPECIAL_CHARS);
 $subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_SPECIAL_CHARS);
 
 if (!$name || !$phone) {
-    header('Location: Reserve%20Now.html?error=1');
+    header('Location: /pages/reserve.html?error=1');
     exit;
 }
 
@@ -43,5 +43,5 @@ $headers .= "X-Mailer: UrbanRetreat/1.0";
 
 mail($to, $mail_subject, $body, $headers);
 
-header('Location: Reserve%20Now.html?sent=1');
+header('Location: /pages/reserve.html?sent=1');
 exit;

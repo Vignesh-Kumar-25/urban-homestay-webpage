@@ -1,93 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
-<url>
-<loc>https://www.urbanretreatmangalore.com/</loc>
-<lastmod>2026-05-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/index.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/About Urban Retreat.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Contact us.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Gallery.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Getting Here.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Mangalore.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Near by Attractions.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Privacy policy.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Reserve Now.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Sight Seeing.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Sitemap.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Terms of Use.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Urban retreat Services.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.urbanretreatmangalore.com/Urban retreat Tariff Plan.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2026-05-15</lastmod>
-  <changefreq>daily</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/about.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/certificate.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/contact.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/gallery.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/getting-here.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/mangalore.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/nearby-attractions.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/privacy-policy.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/reserve.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/sight-seeing.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/sitemap.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/terms-of-use.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/testimonials.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/tourist-helper.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/services.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/tariff-plan.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.urbanretreatmangalore.com/pages/virtual-tour.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
